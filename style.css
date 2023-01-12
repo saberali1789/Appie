@@ -609,7 +609,7 @@ font-size: 3.2rem;
   list-style: none;
   flex-direction: column;
   padding: 2.4rem 0;
-  border-top: #BCC6D1 1px solid;
+  border-top: #eef1f6 1px solid;
 }
 
 .feature-plan{
@@ -627,8 +627,14 @@ font-size: 3.2rem;
  display: block;
  border-radius: 50px;
  padding: .8rem;
- font-size: 1.8rem;  
+ font-size: 1.8rem;
 
+
+}
+
+.juicy ion-icon{
+  color: #2bb560;
+  background-color: #effaf3;
 }
 
 .choose-btn,
@@ -648,6 +654,9 @@ font-size: 3.2rem;
 
 .sweet {
   border-top: 5px solid var(--red);
+  box-shadow: 0 2rem 2.4rem rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
 }
 
 .red-btn,
@@ -656,6 +665,21 @@ font-size: 3.2rem;
   background-color: var(--red);
   color: #fff;
   border: none;
+}
+
+.sweet::after{
+  content: 'Most Popular';
+  padding: .8rem 3.2rem;
+  color: #fff;
+  background-color: #3679ff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  border-radius: 50px;
+  top:2.7rem;
+  right: -1.2rem;
+
 }
 
 
