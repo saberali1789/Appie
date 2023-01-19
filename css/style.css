@@ -710,7 +710,7 @@ font-size: 3.2rem;
   grid-template-columns: 1fr 2fr;
   gap: 3.2rem;
 
-  background-image: url(img/testimonial-background.jpg);
+  background-image: url(../img/testimonial-background.jpg);
   background-size:cover;
   background-position: center;
 }
